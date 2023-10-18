@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang= "en" xmlns:th="http://www.thymeleaf.org" th:replace="base::Layout(~{::section})">
+<head>
+	<meta charset="UTF-8"/>
+	<title>this is about page</title>
+</head>
+<body>
+	<section class="banner d-flex justify-content-center align-items-center" >
+    	<div  class="login-page">
+            <div class="form-box-login">
+            	<div class="boxx">
+                    <h3>LOGIN</h3>
+              	</div>
+              	
+			<form id="login" class="input-group-login"  th:action="@{/dologin}" action="#" method="post">
+       			<div th:if="${param.error}" class="alert alert-danger">Invalid Email ID or Password</div>
+       			<div th:if="${param.logout}" class="alert alert-success">You are successfully Logged Out.</div>
+       
+       			<label for = "username">Email</label>
+       			<input type="text" id="username" name="username" class="input-field" placeholder="Email Id"  required>
+       			<label for = "password">Password</label>
+       			<input type="password" id="password" name="password" class="input-field" placeholder="Password"  required>
+               	<input type="checkbox" class="check-box"><span class= "span_login"> Remember me
+               	<a class="login_a" href="/signup">Register here</a></span>
+               	<button type="submit"  class="submit-btn">Sign in </button>
+			</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

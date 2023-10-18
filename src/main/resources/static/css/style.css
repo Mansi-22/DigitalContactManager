@@ -1,0 +1,257 @@
+/* home css */
+/* background */
+.bg-primary{
+	background: black !important;
+}
+.bg-primary-one{
+	background:  #d17814 !important;
+}
+.banner{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/cover.jpg);
+	background-size:cover;
+	color:black;	
+}
+
+/* navbaar*/
+.test{
+	height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.navbar-dashboard{
+	display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 30px; 
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 30px; 
+}
+nav {
+    flex: 1;
+    text-align: right;
+   
+  }
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: darkgrey;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    color: #5ebe91f2;
+  }
+.for_a{
+    text-decoration: none;
+    color:darkgoldenrod;
+    font-size: 30px;
+  }
+/* navbaar end */
+
+/* signup and login */
+
+.form-box {
+    width: 380px;
+    height: 600px;
+    position: relative;
+    margin:  auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+.form-box-login {
+    width: 380px;
+    height: 430px;
+    position: relative;
+    margin:  auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow: hidden;
+}
+.login_a{
+	margin-bottom: 100px;
+	padding-left: 100px;
+}
+.boxx{
+	width: 280px;
+	text-align: center;
+    margin: 25px auto;
+    position: relative;
+}
+.input-group-login {
+    
+    position:absolute;
+    width: 280px;
+    transition: 0.5s;
+  }
+.input-group-register {
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+  }
+.input-field {
+    width: 100%;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 10px 20px;
+    background:#a76923;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+  .check-box {
+    margin: 20px 10px 0px 0;
+  }
+.span_login {
+    color: #777;    
+    font-size: 12px;
+	
+ 	}
+#login {
+    left: 50px;
+  }
+#login input {
+    color: white;
+    font-size: 15;
+  }
+#register {
+    left: 50px;
+  }
+#register input {
+    color: white;
+    font-size: 15;
+  }
+  
+  label{
+  color:#B87C4C;}
+  h3{
+  color: #a76923;
+  }
+  
+  
+    
+    
+    
+    
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #f3c693;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btg{
+	background-color : transparent;
+	color: white;
+}  
+/* login and registration ends */
+.dashboard_bg{
+	background: yellow;
+}  
+/* sidebaar */
+
+@media only screen and (max-width:600px){
+    .sidebar{
+        display: none;
+        width: 80% !important;
+        background: white;
+        height: 100vh;
+        position: fixed;
+        padding-top: 20px;
+    }
+    .content{
+        margin-left: 0% !important;
+    }
+
+}
+.sidebar{
+    width: 18%;
+    background: white;
+    height: 100%;
+    position: fixed;
+    padding-top: 45px;
+    z-index:99999999999;
+    margin-top: 1rem!important
+}
+
+.sidebar a{
+    display: block;
+    width: 100%;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: gray;
+}
+.sidebar a:hover{
+    background: #e2e2e2;
+}
+.sidebar .divider{
+    height: .5px;
+    width: 100%;
+    background: #e2e2e2;
+    margin-top: 10px;
+}
+.content{
+    margin-left: 20%;
+}
+
+.sidebar .crossBtn{
+    position: absolute;
+    top: 0;
+    right: 35px;
+    font-size: 36px;
+    cursor: pointer;
+}
+/* end of sidebaar */
+.about{
+	width: 500px;
+}
+  
+  
